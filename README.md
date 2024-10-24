@@ -28,7 +28,15 @@
 14. When a timer has completed " END T1" is displayed, the buzzer starts and a led blinks.
 15. A Long button press (more than 750mS) to stop the alarm
 16. If you didn't cancel a timer your original values will run it again by just selecting "START TIMER" and pressing the button
-17. To setup another timer turn knob to "SELECT TIMER     0X" and a short press to enter select mode
-18. Turn the knob to select a new active timer. "SELECT TIMER T:0X" is the curren timer and the far right is the new timer
+17. To setup another timer turn knob to "SELECT TIMER" and a short press to enter select mode
+18. Turn the knob to select a new active timer. "SELECT TIMER CT:X" is the curren timer and the far right is the new timer
 19. Short press to enable new active timer
+<br>
 
+## WOKWI Simulation
+
+[![wikwi_multi_timer](https://github.com/user-attachments/assets/d9946ba8-fc92-4fb6-9f9d-c4918d16eb05)](https://wokwi.com/projects/412303079524184065)
+
+<br>
+
+`To get EPOCH in Windows Power Shell enter` **`[int64](Get-Date -UFormat %s)`**
